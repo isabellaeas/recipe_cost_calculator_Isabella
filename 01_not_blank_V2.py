@@ -1,6 +1,7 @@
 """
 Component 1 - not blank function
 V1 -  Checking to see that function is called. Returns a basic error message
+V2 - Add 'error_message' parameter so function works for more outcomes
 """
 
 

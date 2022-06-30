@@ -21,4 +21,4 @@ def not_blank(question, error_message):
 # Check that the not blank function is called
 recipe_name = not_blank("Recipe name:",
                         "sorry this can't be blank, "
-                        "please enter you recipe's name")
+                        "please enter your recipe's name")

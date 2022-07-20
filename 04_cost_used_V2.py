@@ -4,6 +4,7 @@ V1 -  Calculate cost per amount of ingredient used for one ingredient
 V2 -  Add function into class to calculate for all ingredients
 """
 
+
 class Ingredient:
     def __init__(self, name, needed, purchased, cost):
         self.name = name
@@ -16,9 +17,7 @@ class Ingredient:
 
 
 # Main
-flour = Ingredient('Flour', 200, 500, 5)
-ing2 = Ingredient('Chicken', 100, 200, 3)
+zucchini = Ingredient('Zucchini', 680, 900, 6)
+carrot = Ingredient('Carrot', 600, 700, 4)
 
-print(ing2.cost_used())
-
-
+print(zucchini.cost_used(), carrot.cost_used())
